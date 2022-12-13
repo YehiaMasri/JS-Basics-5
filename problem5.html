@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form>
+
+    <label for="number">Please enter a number</label>
+    <input type="number" name="number" id="number" required >
+
+    <label for="sign">Choose a sign:</label>
+
+    <select name="sign" id="sign">
+      <option value="sum" checked>+</option>
+      <option value="product">x</option>
+    </select>
+
+    <input type="button" value="submit" required onclick="operation()"> 
+</form>
+  <script src="/problem5.js"></script>
+</body>
+</html>
