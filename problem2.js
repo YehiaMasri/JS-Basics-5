@@ -7,6 +7,6 @@ x.onclick = ()=> {
     inputField.value = "";
 }else if (name=="alice"){
   alert("Hello " + name);
-  inputField.value = "";
+  inputField.value = ""; 
 }
 }
